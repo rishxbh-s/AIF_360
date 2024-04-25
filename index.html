@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
+<script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <meta
+      name="viewport"
+      content="width=device-width,
+      initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <py-script src="AIF-LOAN.ipynb"></py-script>
+    <div class="container">
+      <form method="post" action="https://script.google.com/macros/s/AKfycbyhW3JUgZ-9SxEy7WTmWIsxJ9AfGvoxyeMEM3T7hpb57YivaQ94qgRbEBQ8jyP0CNMt/exec" name="Registration">
+      <h1 class="form-title">Registration</h1>
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Married</label>
+            <input
+              type="text"
+              id="fullName"
+              name="Married"
+              placeholder="Yes/No" required
+            />
+          </div>
+          <div class="user-input-box">
+            <label for="dependents">Dependents</label>
+            <input
+              type="text"
+              id="dependents"
+              name="dependents"
+              placeholder="0/1/2/3/3+" required
+            />
+          </div>
+          <div class="user-input-box">
+            <label for="Education">Education</label>
+            <input
+              type="TEXT"
+              id="Education"
+              name="Education"
+              placeholder="Graduate/Not Graduate" required
+            />
+          </div>
+          <div class="user-input-box">
+            <label for="Applicant Income">Applicant Income</label>
+            <input
+              type="text"
+              id="Applicant Income"
+              name="Applicant Income"
+              placeholder="Enter your Income" required
+            />
+          </div>
+          <div class="user-input-box">
+            <label for="Coapplicant Income">Coapplicant Income</label>
+            <input
+              type="text"
+              id="Coapplicant Income"
+              name="Coapplicant Income"
+              placeholder="Coapplicant Income" required
+            />
+          </div>
+          <div class="user-input-box">
+            <label for="LoanAmount">Loan Amount</label>
+            <input
+              type="text"
+              id="LoanAmount"
+              name="LoanAmount"
+              placeholder="Loan Amount required" required
+            />
+          </div>
+          <div class="user-input-box">
+            <label for="Loan_Amount_Term">Loan Amount</label>
+            <input
+              type="text"
+              id="Loan_Amount_Term"
+              name="Loan_Amount_Term"
+              placeholder="Time Required(in days)" required
+            />
+            
+          </div>
+        </div>
+        <div class="user-input-box">
+          <label for="Credit_History">Loan History</label>
+          <input
+            type="text"
+            id="Credit_History"
+            name="Credit_History"
+            placeholder="Any old loan pending" required
+          />
+        </div>
+        <div class="user-input-box">
+          <label for="Property_Area">Loan History</label>
+          <input
+            type="text"
+            id="Property_Area"
+            name="Property_Area"
+            placeholder="Urban/Rural/SemiUrban" required
+          /> 
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Gender</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label>
+          </div>
+        </div>
+     
+        <div class="form-submit-btn">
+          <input type="submit" value="Register" />
+        </div>
+        </div>
+      </div>
+      </form>
+    </div>
+  </body>
+</html>
