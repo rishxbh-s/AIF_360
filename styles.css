@@ -1,0 +1,74 @@
+style > body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #1a47a9ba;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+h1 {
+  color: #812222;
+  text-align: center;
+}
+
+h2 {
+  color: #812222;
+  text-align: center;
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+.image-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image-box img {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-box h3 {
+  color: #812222;
+  margin-top: 5px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #45a049; /* Darker Green */
+}
